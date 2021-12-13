@@ -1,0 +1,185 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects CHP 39-52</title>
+</head>
+<body style="text-align: center; font-size: 15px; font-weight: 800; font-family: sans-serif;">
+    <h1>Objects CHP 39-52</h1>
+    <h2>PDF 1: <br> chapters 38-42 <br><br> PDF 2: <br> chapters 43-48 <br><br> PDF 3: <br> chapters 49-52 <br></h2>
+    <h3>----------------------------------------------</h3>
+    <h1>Chapter: 43-48</h1>
+    <hr>
+    <h3>Q1:</h3>
+    <a href="javascript:void(0)" onclick="linkAlert()">ALERT LINK</a>
+    <hr>
+    <h3>Q2:</h3>
+    <h2 class="blue">Mobile Phone Lookup</h2>
+    <div class="top Container">
+        <img width="200" height="200" src="mob1.jpeg" onclick="phoneAlert()">
+        <img width="200" height="200" src="mob 2.jpeg" onclick="phoneAlert()">
+        <img width="200" height="200" src="mob 3.jpeg" onclick="phoneAlert()">
+    </div>
+    <div class="Container blue">
+        <span>infinix Note 10 Pro</span>
+        <span>infinix Zero X</span>
+        <span>Samsung Galaxy Zero</span>
+    </div>
+
+    <hr>
+    <h3>Q3:</h3>
+
+    <table id="myTable" style="display: flex; justify-content: center;">
+        <tr>
+            <th>S.No:</th>
+            <th>Name</th>
+            <th>Class </th>
+            <th> Buttons For Deleting Row</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Younus</td>
+            <td>11</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rehman</td>
+            <td>10</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ali</td>
+            <td>12</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Khizar</td>
+            <td>9</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Abdullah</td>
+            <td>14</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Tanzeel</td>
+            <td>14</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Usman</td>
+            <td>14</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+
+
+    <hr>
+    <h3>Q4:</h3>    
+    <img id="img1" src="img1.jpg" width="200" height="200" onmouseover="img1toimg2()" onmouseout="img2toimg1(this)" />
+
+    <hr>
+    <h3>Q5:</h3>
+    <p> Counter :
+        <input id="input" style="width: 50px; margin-left: 5px;" type="button" value="0">
+    </p>
+    <br>
+    <button onclick="countInc()">Increase</button>
+    <button onclick="countDec()">Decrease</button>
+    <hr>
+
+    <h3>----------------------------------------------</h3>
+    <h1>Chapter: 49-52</h1>
+
+    <h2>Signup Form</h2>
+    Name:
+    <input id="name" type="text" placeholder="Enter your Name">
+    <br>
+    Email:
+    <input id="email" type="email" placeholder="Enter your Email">
+    <br>
+    Password:
+    <input id="pass" type="password" placeholder="Enter Password here">
+    <br>
+    Contact:
+    <input id="contact" type="number" placeholder="Enter your Mobile no.">
+    <br>
+    <button onclick="submit()">SUBMIT</button>
+    <p id="p1">Entered Name is </p>
+    <p id="p2">Entered Email is </p>
+    <p id="p3">Entered Password is </p>
+    <p id="p4">Entered Contact Number is </p>
+
+
+    <p id="para">
+        Sunset is the time of day when our sky meets the outer space solar winds. There are blue, pink, and purple
+        swirls, spinning and twisting, like clouds of balloons caught in a whirlwind. The sun moves slowly to hide
+        behind the line of horizon, 
+        <a href="javascript:void(0)" onclick="readMore()">Read More</a>
+    </p>
+
+
+    <table id="myTable" style="display: flex; justify-content: center;">
+        <tr>
+            <th>Name</th>
+            <th>Index</th>
+            <th>Class </th>
+            <th> Edit/Detail</th>
+        </tr>
+        <tr>
+            <td>Younus</td>
+            <td>0</td>
+            <td>10</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+            <td><button onclick = "editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>1</td>
+            <td>10</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+            <td><button onclick = "editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>Ammar</td>
+            <td>2</td>
+            <td>11</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+            <td><button onclick = "editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>Rehman</td>
+            <td>3</td>
+            <td>9</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+            <td><button onclick = "editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>Noor</td>
+            <td>4</td>
+            <td>14</td>
+            <td><button onclick = "deleteRow(this)">Delete</button></td>
+            <td><button onclick = "editRow(this)">Edit</button></td>
+        </tr>
+    </table>
+
+    <form class="hideForm" id="hide">
+        <input type="text" id="name" placeholder="Name" />
+        <input type="text" id="class" placeholder="Class" />
+        <input type="text" id="email" placeholder="Email" />
+        <input type="text" id="contact" placeholder="Contact" />
+    </form>
+
+
+</body>
+<script src="app.js"></script>
+</html> -->

@@ -1,0 +1,36 @@
+var firstName = prompt("Enter Your First Name:");
+var lastName = prompt("Enter Your Last Name:");
+var rollNum = +prompt("Enter Your Roll Number:");
+var schName = prompt("Enter Your School Name:");
+var math = +prompt("Your Mathematics Marks:");
+var comp = +prompt("Your Computer Marks:");
+var eng = +prompt("Your English Marks:");
+var phy = +prompt("Your Physics Marks:");
+var chem = +prompt("Your Chemistry Marks:");
+var html = +prompt("Your HTML Marks:");
+var css = +prompt("Your CSS Marks:");
+var js = +prompt("Your JavaScript Marks:");
+var obtMarks = math + comp + eng + phy + chem + html + css + js;
+var totalMarks = +prompt("Enter Total Marks:");
+var percentage = (obtMarks / totalMarks) * 100;
+
+document.write("-----------Personal Data-----------" + "<br>")
+document.write("First Name : " + firstName + "<br>");
+document.write("Last Name : " + lastName + "<br>");
+document.write("Roll Number : " + rollNum + "<br>");
+document.write("School Name : " + schName + "<br>" + "<br>" + "<br>");
+document.write("--------Subject Wise Marks--------" + "<br>");
+document.write("Each Subject Marks are Mentioned Below : <br>");
+document.write("Marks Obtained in Maths : " + math + "<br>");
+document.write("Marks Obtained in Computer : " + comp + "<br>");
+document.write("Marks Obtained in English : " + eng + "<br>");
+document.write("Marks Obtained in Physics : " + phy + "<br>");
+document.write("Marks Obtained in Chemistry : " + chem + "<br>");
+document.write("Marks Obtained in HTML : " + html + "<br>");
+document.write("Marks Obtained in CSS : " + css + "<br>");
+document.write("Marks Obtained in JavaScript : " + js + "<br>" + "<br>" + "<br>");
+document.write("----------Final Result----------" + "<br>");
+document.write("Total Marks Obtained are " + obtMarks + " Out of " + totalMarks + "<br>"); 
+document.write("---------------------------------" + "<br>");
+document.write("Percentage is : " + percentage + "<br>" );
+document.write("---------------------------------" + "<br>");
